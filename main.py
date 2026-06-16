@@ -1,4 +1,6 @@
-def tinh_thue_thu_nhap(thu_nhap):
-    # Kết hợp logic: Giảm trừ 4 triệu của A và tính thuế 10% của B
-    thu_nhap_tinh_thue = thu_nhap - 4000000
-    return max(0, thu_nhap_tinh_thue * 0.1)
+
+def tinh_diem_gpa(diem_so):
+    # TODO: Cần cập nhật logic quy đổi sang hệ 4
+    return 0.0
+
+print("Điểm GPA hệ 4 là:", tinh_diem_gpa(8.5))
